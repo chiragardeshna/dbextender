@@ -1,0 +1,22 @@
+{
+    "name": "chiragardeshna/dbextender",
+    "description": "It extends laravel default Query builder and Eloquent.",
+    "type": "chiragardeshna/dbextender",
+    "license": "MIT",
+    "keywords": ["laravel", "lumen", "database", "sql", "orm", "extend", "extender"],
+    "authors": [
+        {
+            "name": "Chirag Ardeshna",
+            "email": "ardeshnachirag@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chiragardeshna\\Dbextender\\": "src"
+        }
+    },
+    "require": {
+        "illuminate/database": "5.3.*"
+    },
+    "minimum-stability": "dev"
+}
