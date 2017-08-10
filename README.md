@@ -2,7 +2,7 @@
 It extends laravel \ lumen default Query builder.
 
 # How to install
-<code>composer require chiragardeshna/dbextender 1.*</code>
+<code>composer require chiragardeshna/dbextender</code>
 
 # Laravel Setup
 Run <code>php artisan vendor:publish</code>.<br/>
