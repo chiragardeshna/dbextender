@@ -32,9 +32,9 @@ return [
 ];
 ```
 
-Register this new config file in bootstrap/app.php.<br/><br/>
+Register this new config file in bootstrap/app.php.<br/>
 <code>$app->register(Chiragardeshna\Dbextender\DBExtenderServiceProvider::class);</code><br/>
-<code>$app->configure('dbextender');</code>
+<code>$app->configure('dbextender');</code><br/>
 
 Create app/query/Builder.php file
 
