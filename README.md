@@ -6,7 +6,7 @@ It extends laravel \ lumen default Query builder.
 
 # Laravel Setup
 Run <code>php artisan vendor:publish</code>.<br/>
-Register <code>Chiragardeshna\Dbextender\DBExtenderServiceProvider::class</code> in config/app.php in providers array.
+Put <code>Chiragardeshna\Dbextender\DBExtenderServiceProvider::class</code> in config/app.php in providers array.
 
 # Lumen Setup
 Create dbextender.php file and put it in config/dbextender.php.<br/>
@@ -32,13 +32,9 @@ return [
 ];
 ```
 
-Register this new config file in bootstrap/app.php.<br/>
+Register this new config file in bootstrap/app.php.<br/><br/>
 <code>$app->register(Chiragardeshna\Dbextender\DBExtenderServiceProvider::class);</code><br/>
 <code>$app->configure('dbextender');</code>
-
-
-
-
 
 Create app/query/Builder.php file
 
