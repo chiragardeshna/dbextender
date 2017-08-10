@@ -26,6 +26,7 @@ class DBExtenderServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/../config/dbextender.php' => base_path('/config/dbextender.php'),
+            __DIR__.'/../Builder.php' => base_path('/app/Query/Builder.php'),
         ]);
     }
 
