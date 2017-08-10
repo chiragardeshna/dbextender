@@ -11,6 +11,6 @@ return [
     | It's important that specified class extend behaviour from default Query Builder class.
     |
     */
-    'builder' =>  'App\Builder',
+    'builder' =>  'App\Query\Builder',
 
 ];
