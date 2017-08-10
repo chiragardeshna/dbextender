@@ -32,7 +32,8 @@ return [
 ];
 ```
 
-Register this new config file in bootstrap/app.php.<br/>
+Register this new config file in bootstrap/app.php.
+
 <code>$app->register(Chiragardeshna\Dbextender\DBExtenderServiceProvider::class);</code><br/>
 <code>$app->configure('dbextender');</code><br/>
 
