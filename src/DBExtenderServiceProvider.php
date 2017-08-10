@@ -25,7 +25,7 @@ class DBExtenderServiceProvider extends ServiceProvider
         Model::setEventDispatcher($this->app['events']);
 
         $this->publishes([
-            __DIR__.'/../../config/dbextender.php' => base_path('/config/dbextender.php'),
+            __DIR__.'/../config/dbextender.php' => base_path('/config/dbextender.php'),
         ]);
     }
 
